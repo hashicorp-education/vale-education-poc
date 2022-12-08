@@ -70,4 +70,9 @@ theapreston@theapreston-C0EXC311ENT .vale % tree
 
 Example:
 
-/Users/theapreston/.vale
+`/Users/theapreston/.vale`
+
+14 - Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab.
+
+![image](https://user-images.githubusercontent.com/92055993/206570255-602bdd9e-dcab-4d2d-85ee-17f354c2ec9b.png)
+
