@@ -27,6 +27,8 @@ Internal repository for testing Vale for use in local development.
 
 `cd vocab && mkdir hashicorp`
 
-7 - Copy the `accept.txt` file from this repo to `~/.vale/styles/vocab/hashicorp/`
+7 - Copy the `accept.txt` file from this repo to `~/.vale/styles/vocab/hashicorp/`.
 
-8 - Copy all the `yml` files from this repo to `~/.vale/styles/education/`
+8 - Copy all the `yml` files from this repo to `~/.vale/styles/education/`.
+
+9 - Copy the `vale.ini` file from this repo to `~/.vale/`.
