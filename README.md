@@ -42,7 +42,7 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
 10 - Verify the directory structure is similar to
 
 ```
-theapresont@theapreston-C0EXC311ENT .vale % tree
+theapreston@theapreston-C0EXC311ENT .vale % tree
 .
 ├── styles
 │   ├── education
