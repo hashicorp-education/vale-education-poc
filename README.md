@@ -42,7 +42,7 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
 10 - Verify the directory structure is similar to
 
 ```
-jonathanfrappier@jonathanfrappier-C02G80FMMD6N .vale % tree
+theapresont@theapreston-C0EXC311ENT .vale % tree
 .
 ├── styles
 │   ├── education
@@ -61,3 +61,13 @@ jonathanfrappier@jonathanfrappier-C02G80FMMD6N .vale % tree
 │           └── accept.txt
 └── vale.ini
 ```
+
+11 - Install the Vale VSCode extension.
+
+12 - Once installed, click the gear icon >> extension settings to access the settings.
+
+13 - In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory.
+
+Example:
+
+/Users/theapreston/.vale
