@@ -1,0 +1,10 @@
+extends: substitution
+message: Use gender neutral language when possible. Use “they” to reference unknown third-persons. Consider using '%s' instead of '%s'
+level: error
+ignorecase: true
+# swap maps tokens in form of bad: good
+swap:
+    he: they
+    she: they
+    he/she: they
+    he / she: they

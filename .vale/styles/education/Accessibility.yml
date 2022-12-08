@@ -1,0 +1,29 @@
+extends: existence
+message: Avoid language that isolate or excludes. Remove '%s'
+ignorecase: true
+level: error
+tokens: 
+  - young
+  - old
+  - elderly
+  - suffer
+  - victim
+  - handicapped
+  - a victim of
+  - able-bodied
+  - affected by
+  - an epileptic
+  - crippled
+  - disabled
+  - dumb
+  - handicaps
+  - healthy
+  - lame
+  - maimed
+  - missing a limb
+  - mute
+  - normal
+  - sight-impaired
+  - stricken with
+  - suffers from
+  - vision-impaired
