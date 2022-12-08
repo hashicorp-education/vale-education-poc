@@ -23,3 +23,10 @@ Internal repository for testing Vale for use in local development.
 
 `cd styles && mkdir education vocab`
 
+6 - Change into the `vocab` directory and create a sub-direcotry named `hashicorp`.
+
+`cd vocab && mkdir hashicorp`
+
+7 - Copy the `accept.txt` file from this repo to `~/.vale/styles/vocab/hashicorp/`
+
+8 - Copy all the `yml` files from this repo to `~/.vale/styles/education/`
