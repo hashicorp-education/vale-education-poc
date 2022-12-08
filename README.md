@@ -32,3 +32,26 @@ Internal repository for testing Vale for use in local development.
 8 - Copy all the `yml` files from this repo to `~/.vale/styles/education/`.
 
 9 - Copy the `vale.ini` file from this repo to `~/.vale/`.
+
+10 - Verify the directory structure is similar to
+
+```
+jonathanfrappier@jonathanfrappier-C02G80FMMD6N .vale % tree
+.
+├── styles
+│   ├── education
+│   │   ├── Accessibility.yml
+│   │   ├── Avoid.yml
+│   │   ├── ComplexWords.yml
+│   │   ├── GenderBias.yml
+│   │   ├── HeadingCapitalization.yml
+│   │   ├── Inclusion.yml
+│   │   ├── OxfordComma.yml
+│   │   ├── SentenceLength.yml
+│   │   ├── We.yml
+│   │   └── Wordiness.yml
+│   └── vocab
+│       └── hashicorp
+│           └── accept.txt
+└── vale.ini
+```
