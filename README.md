@@ -1,6 +1,12 @@
 # vale-education-poc
 Internal repository for testing Vale for use in local development.
 
+## What is Vale
+
+"Vale is a linter for prose" - said another way - its a way super rad grammar checker for the command line or your favorite IDE (assuming your favorite IDE is one of the Vale supported IDEs).
+
+Vale runs locally, and does not send data back to any 3rd parties (looking at you Grammarly). It is completely customizable though the use of configuration files. Sample configurations files can be found at https://github.com/errata-ai.
+
 ## Installation (manual)
 
 1 - Install Vale (https://vale.sh/docs/vale-cli/installation/).
