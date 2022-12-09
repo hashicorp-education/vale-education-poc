@@ -1,6 +1,15 @@
 # vale-education-poc
 Internal repository for testing Vale for use in local development.
 
+## Feedback, ideas, problems, etc
+
+If you have an idea on how to improve the use of, or find issues when using Vale please open a Github issue on this repository.
+
+## Known issues
+
+- Setup is very manual at this point. Plan to streamline if/when we choose to adopt Vale.
+- This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add. 
+
 ## What is Vale
 
 "Vale is a linter for prose" - said another way - its a way super rad grammar checker for the command line or your favorite IDE (assuming your favorite IDE is one of the Vale supported IDEs).
@@ -70,7 +79,7 @@ theapreston@theapreston-C0EXC311ENT .vale % tree
 
 Example:
 
-`/Users/theapreston/.vale`
+`/Users/theapreston/.vale/vale.ini`
 
 14 - Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab.
 
