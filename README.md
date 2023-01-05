@@ -69,8 +69,8 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
 
 1. Click the gear icon → Extension settings to access the settings.
 
-1. - In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory, for example `/Users/username/.vale`
+1. In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory, for example `/Users/username/.vale`
 
-1. - Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab:
+1. Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab:
 
 ![image](https://user-images.githubusercontent.com/92055993/206570255-602bdd9e-dcab-4d2d-85ee-17f354c2ec9b.png)
