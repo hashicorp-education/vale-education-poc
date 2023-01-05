@@ -5,11 +5,17 @@ Internal repository for testing Vale for use in local development.
 
 If you have an idea on how to improve the use of, or find issues when using Vale please open a Github issue on this repository.
 
+## Required version
+
+The configuration in this repository requires Vale version `2.21.x` (tested specifically on `2.21.3`).
+
+Run `vale --version` to verify the version you have instaled.
+
 ## Known issues
 
 - Setup is very manual at this point. Plan to streamline if/when we choose to adopt Vale.
 - This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add.
-- In limited testing, the path to styles in `vale.ini` may not work with just `styles` but will work with the directory shown in the current `vale.ini` in this repository. 
+- The version of Vale is critical to ensure it works. For example, during testing, the path to styles in `vale.ini` works with version `2.15` using just `styles` but will not work with 2.21. Ensure you are on version `2.21.x`
 
 ## What is Vale
 
