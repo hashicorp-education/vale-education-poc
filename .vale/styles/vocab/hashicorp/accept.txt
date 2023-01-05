@@ -13,3 +13,13 @@ postgres
 postgreSQL
 json
 JSON
+SRE
+Fluentd
+hardcoding
+Vault
+Consul
+VPC
+Secret Engine
+Kibana
+API
+Confluent Cloud
