@@ -8,7 +8,8 @@ If you have an idea on how to improve the use of, or find issues when using Vale
 ## Known issues
 
 - Setup is very manual at this point. Plan to streamline if/when we choose to adopt Vale.
-- This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add. 
+- This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add.
+- In limited testing, the path to styles in `vale.ini` may not work with just `styles` but will work with the directory shown in the current `vale.ini` in this repository. 
 
 ## What is Vale
 
