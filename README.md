@@ -18,70 +18,52 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
 
 ## Installation (manual)
 
-1 - Install Vale (https://vale.sh/docs/vale-cli/installation/).
+1. Install Vale (https://vale.sh/docs/vale-cli/installation/).
 
-`brew install vale`
+    ```shell
+    brew install vale
+    ```
 
-2 - Open a terminal and navigate to your home directory.
+1. Open a terminal and navigate to your preferred source code directory.
 
-`cd ~`
+    ```shell
+    cd ~/src
+    ```
 
-3 - Create a directory named `.vale`.
+1. Clone this repository.
 
-`mkdir .vale`
+    ```shell
+    git clone git@github.com:hashicorp-education/vale-education-poc.git
+    ```
 
-4 - Change into the `.vale` directory and create sub-directory named `sytles`.
+1. Copy the Vale styles directory from the repository directory to your home directory.
 
-`cd .vale && mkdir styles`
+    ```shell
+    cp -r vale-education-poc/.vale $HOME/
+    ```
 
-5 - Change into the `styles` directory and create sub-directories named `education` and `vocab`.
+1. Move the Vale configuration file from the styles directory to your home directory.
 
-`cd styles && mkdir education vocab`
+    ```shell
+    mv $HOME/.vale/vale.ini $HOME/.vale.ini
+    ```
 
-6 - Change into the `vocab` directory and create a sub-direcotry named `hashicorp`.
+1. Confirm installation by syncing styles.
 
-`cd vocab && mkdir hashicorp`
+    ```shell
+    vale sync
+    ```
 
-7 - Copy the `accept.txt` file from this repo to `~/.vale/styles/vocab/hashicorp/`.
+    The command should return no output. If you encounter an error instead. confirm that your `$HOME` directory contains both the `.vale.ini` configuration file and the the `.vale` styles directory.
 
-8 - Copy all the `yml` files from this repo to `~/.vale/styles/education/`.
+1. Install the Vale VSCode extension.
 
-9 - Copy the `vale.ini` file from this repo to `~/.vale/`.
+1. Once you hve installed the VSCode extension, open the VSCode application.
 
-10 - Verify the directory structure is similar to
+1. Click the gear icon → Extension settings to access the settings.
 
-```
-theapreston@theapreston-C0EXC311ENT .vale % tree
-.
-├── styles
-│   ├── education
-│   │   ├── Accessibility.yml
-│   │   ├── Avoid.yml
-│   │   ├── ComplexWords.yml
-│   │   ├── GenderBias.yml
-│   │   ├── HeadingCapitalization.yml
-│   │   ├── Inclusion.yml
-│   │   ├── OxfordComma.yml
-│   │   ├── SentenceLength.yml
-│   │   ├── We.yml
-│   │   └── Wordiness.yml
-│   └── vocab
-│       └── hashicorp
-│           └── accept.txt
-└── vale.ini
-```
+1. - In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory, for example `/Users/username/.vale`
 
-11 - Install the Vale VSCode extension.
-
-12 - Once installed, click the gear icon >> extension settings to access the settings.
-
-13 - In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory.
-
-Example:
-
-`/Users/theapreston/.vale/vale.ini`
-
-14 - Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab.
+1. - Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab:
 
 ![image](https://user-images.githubusercontent.com/92055993/206570255-602bdd9e-dcab-4d2d-85ee-17f354c2ec9b.png)
-
