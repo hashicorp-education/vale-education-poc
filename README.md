@@ -74,3 +74,6 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
 1. Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab:
 
 ![image](https://user-images.githubusercontent.com/92055993/206570255-602bdd9e-dcab-4d2d-85ee-17f354c2ec9b.png)
+
+## Additional Vale configs
+When looking to add new configurations Vale, start with the Google style guide examples https://github.com/errata-ai/Google
