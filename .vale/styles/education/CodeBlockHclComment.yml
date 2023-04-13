@@ -1,0 +1,11 @@
+extends: existence
+message: "Use # for HCL comments instead of \\"
+level: warning
+ignorecase: true
+scope: raw
+raw:
+  - \x60{3}hcl
+  - (\n[^\n\x60]*)*
+  - (\n\s*(\\\\|//)[^\n\x60]*)+
+  - (\n[^\n\x60]*)*
+  - \n[^\n]*\x60{3}
