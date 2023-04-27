@@ -1,0 +1,11 @@
+extends: existence
+message: "Do not use mutiple styles for emphasis"
+link: https://github.com/hashicorp/engineering-docs/blob/main/writing/markdown.md#inline-styles
+nonword: true
+scope: raw
+level: warning
+tokens:
+  - '\*{2}_{1}.*'
+  - '_{1}\*{2}.*'
+  - '_{1}`{1}.*'
+  - '\*{2}`{1}.*'
