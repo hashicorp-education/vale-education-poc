@@ -1,0 +1,7 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s'."
+link: https://github.com/hashicorp/engineering-docs/blob/main/writing/markdown.md#inline-styles
+scope: raw
+level: warning
+swap:
+  __[^_].*:          \*\*
