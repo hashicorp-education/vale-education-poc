@@ -7,7 +7,7 @@ If you have an idea on how to improve the use of, or find issues when using Vale
 
 ## Required version
 
-The configuration in this repository requires Vale version `2.21.x` (tested specifically on `2.21.3`).
+The configuration in this repository requires Vale version `2.24.x` (tested specifically on `2.24.0`).
 
 Run `vale --version` to verify the version you have instaled.
 
@@ -15,7 +15,7 @@ Run `vale --version` to verify the version you have instaled.
 
 - Setup is very manual at this point. Plan to streamline if/when we choose to adopt Vale.
 - This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add.
-- The version of Vale is critical to ensure it works. For example, during testing, the path to styles in `vale.ini` works with version `2.15` using just `styles` but will not work with 2.21. Ensure you are on version `2.21.x`
+- The version of Vale is critical to ensure it works. For example, during testing, the path to styles in `vale.ini` works with version `2.15` using just `styles` but will not work with 2.21. Ensure you are on version `2.24.x`
 
 ## What is Vale
 
