@@ -12,6 +12,7 @@ exceptions:
   - HashiCorp
   - HCP
   - Vault
+  - Vault Enterprise
   - Terraform
   - Boundary
   - Consul
@@ -34,3 +35,6 @@ exceptions:
   - Visual
   - VS
   - Windows
+  - KV secret
+  - PKI
+  - minikube

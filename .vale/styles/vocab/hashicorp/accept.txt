@@ -23,3 +23,5 @@ Secret Engine
 Kibana
 API
 Confluent Cloud
+KV secret
+PKI
