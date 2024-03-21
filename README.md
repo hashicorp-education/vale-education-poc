@@ -61,7 +61,7 @@ Vale runs locally and does not send data back to any 3rd parties (looking at you
     git clone git@github.com:hashicorp-education/vale-education-poc.git
     ```
 
-1. Copy the Vale `styles` directory from this repository to the `$HOME/Library/"Application Support"/vale/` directory. For Windows, copy the `styles` directory to `%LOCALAPPDATA%\vale\`.
+1. Copy the Vale contents of this repo (`.vale.ini` and `styles` directory and subdirectories) to the `$HOME/Library/"Application Support"/vale/` directory. For Windows, copy to `%LOCALAPPDATA%\vale\`.
 
     ```shell
     cp -r vale-education-poc/ $HOME/Library/"Application Support"/vale/
