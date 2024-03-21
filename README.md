@@ -1,34 +1,52 @@
 # vale-education-poc
 Internal repository for testing Vale for use in local development.
 
+Please note that previous versions of this doc and the configuration only worked with Vale 2.x. The latest version (as of 3/21) is now 3.2.2. The configuration and steps to set up Vale now assume you are using Vale 3.2.2 or later (later versions could also introduce breaking changes).
+
+**New in Vale 3.x**
+
+Unlike Vale version 2.x, the Vale configuration file `vale.ini` MUST be named `.vale.ini` - previous versions were flexible.
+
+The `styles` directory now must exist in an OS-specific directory (see steps below).
+
+The `vocab` directory is now `vocabularies` and must exist in `styles/config`. The remaining vocab configuration (accept.txt and reject.txt) remains the same.
+
 ## Feedback, ideas, problems, etc
 
-If you have an idea on how to improve the use of, or find issues when using Vale please open a Github issue on this repository.
+If you have an idea on how to improve the use of, or find issues when using Vale please open a GitHub issue on this repository.
 
 ## Required version
 
-The configuration in this repository requires Vale version `2.24.x` (tested specifically on `2.24.0`).
+The configuration in this repository requires Vale version `3.2.x` (tested specifically on `3.2.2`).
 
 Run `vale --version` to verify the version you have instaled.
 
 ## Known issues
 
 - Setup is very manual at this point. Plan to streamline if/when we choose to adopt Vale.
-- This setup is intentinally limited to only 10 different style considerations. This was done intentially to not overwhelm us as we test and figure out what rules we as a team want to use/add.
-- The version of Vale is critical to ensure it works. For example, during testing, the path to styles in `vale.ini` works with version `2.15` using just `styles` but will not work with 2.21. Ensure you are on version `2.24.x`
+- This setup is intentionally limited to only 10 different style considerations. This was done to not overwhelm us as we test and figure out what rules we as a team want to use/add.
+- The version of Vale is critical to ensure the configuration in this repository works. You must be running at least Vale 3.2.2.
 
 ## What is Vale
 
 "Vale is a linter for prose" - said another way - its a way super rad grammar checker for the command line or your favorite IDE (assuming your favorite IDE is one of the Vale supported IDEs).
 
-Vale runs locally, and does not send data back to any 3rd parties (looking at you Grammarly). It is completely customizable though the use of configuration files. Sample configurations files can be found at https://github.com/errata-ai.
+Vale runs locally and does not send data back to any 3rd parties (looking at you Grammarly). It is completely customizable through the use of configuration files. Sample configuration files can be found at https://github.com/errata-ai.
 
 ## Installation (manual)
 
 1. Install Vale (https://vale.sh/docs/vale-cli/installation/).
 
+   **OSX**
+   
     ```shell
     brew install vale
+    ```
+
+    **Windows**
+   
+    ```shell
+    choco install vale
     ```
 
 1. Open a terminal and navigate to your preferred source code directory.
@@ -43,16 +61,10 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
     git clone git@github.com:hashicorp-education/vale-education-poc.git
     ```
 
-1. Copy the Vale styles directory from the repository directory to your home directory.
+1. Copy the Vale `styles` directory from this repository to the `$HOME/Library/Application Support/vale/` directory. For Windows, copy the `styles` directory to `%LOCALAPPDATA%\vale\`.
 
     ```shell
-    cp -r vale-education-poc/.vale $HOME/
-    ```
-
-1. Move the Vale configuration file from the styles directory to your home directory.
-
-    ```shell
-    mv $HOME/.vale/vale.ini $HOME/.vale.ini
+    cp -r vale-education-poc/vale/ $HOME/Library/Application Support/vale/styles
     ```
 
 1. Confirm installation by syncing styles.
@@ -61,15 +73,16 @@ Vale runs locally, and does not send data back to any 3rd parties (looking at yo
     vale sync
     ```
 
-    The command should return no output. If you encounter an error instead. confirm that your `$HOME` directory contains both the `.vale.ini` configuration file and the the `.vale` styles directory.
+   The command should return no output. If you encounter an error instead. confirm that the `Application Support` / `%LOCALAPPDATA%` directories contain the `vale/.vale.ini` configuration file and the `vale/styles`    
+   directory.
 
 1. Install the Vale VSCode extension.
 
-1. Once you hve installed the VSCode extension, open the VSCode application.
+1. Once you have installed the VSCode extension, relaunch VSCode.
 
 1. Click the gear icon → Extension settings to access the settings.
 
-1. In the **Vale > Vale CLI: Config** text box enter the full path to your `.vale` directory and `vale.ini`, for example `/Users/username/.vale/vale.ini`
+1. (Optional) Check the **Enable spell checking with with Vale** checkbox.
 
 1. Restart VSCode and edit away. Vale feedback will be available in the **PROBLEMS** tab:
 
