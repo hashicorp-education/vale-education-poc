@@ -1,0 +1,21 @@
+Anthos
+App Engine
+Apigee
+AutoML
+BigLake
+Bigtable
+BigQuery
+Cloud Functions
+Compute Engine
+Data Fusion
+Dataflow
+Dataplex
+Dataprep
+Dataproc
+Firebase
+Firestore
+GCP
+GKE
+Knative
+Kubernetes Engine
+Memorystore

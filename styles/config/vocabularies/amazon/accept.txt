@@ -1,0 +1,32 @@
+EC2
+VPC
+IAM
+CloudTrail
+STS
+CodeArtifact
+CodeCommit
+CodeStar
+CodeBuild
+CodePipeline
+CodeDeploy
+OpsWorks
+S3
+RDS
+DynamoDB
+SNS
+SQS
+EMR
+Kinesis
+Lambda
+SageMaker
+Rekognition
+Comprehend
+Lex
+Polly
+Route 53
+CloudFront
+API Gateway
+AWS Management Console
+APN
+summit
+re:Invent

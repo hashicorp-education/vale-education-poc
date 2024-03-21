@@ -1,8 +1,8 @@
 extends: existence
-message: "Shell code blocks should include a $"
+message: "Line lenght should be less than 80 characters"
 link: https://github.com/hashicorp/engineering-docs/blob/main/writing/markdown.md#code-blocks
 nonword: true
 scope: raw
 level: warning
-raw:
-  - \s*\x60shell-session\n\s{3}[^!\$]
+tokens:
+  - ^```shell\n(?:(?:.{81,}\n)+)```

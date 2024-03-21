@@ -1,0 +1,17 @@
+ClusterIP
+ConfigMaps
+CronJobs
+DaemonSets
+EndpointSlices
+Helm
+helm
+init
+kubectl
+kubelet
+kubeconfig
+Minikube
+ReplicaSets
+ReplicationControl
+StatefuleSets
+Taints
+Tolerations

@@ -1,0 +1,6 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s'."
+scope: raw
+level: warning
+swap:
+  (\*[a-zA-Z0-9]):          _

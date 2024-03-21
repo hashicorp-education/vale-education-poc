@@ -1,0 +1,24 @@
+Apache
+Auth0
+Cassandra
+CouchDB
+Datadog
+Elasticsearch
+Fleet
+Fluentd
+Grafana
+Kibana
+Logstash
+MongoDB
+MySQL
+Nagios
+New Relic
+ngrok
+Okta
+OpenSSL
+openssl
+PostgreSQL
+Postgres
+Prometheus
+Splunk
+Syslog

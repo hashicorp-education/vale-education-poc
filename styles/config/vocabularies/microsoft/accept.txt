@@ -1,0 +1,24 @@
+Azure Virtual machines
+Azure SQL Database
+Azure Cosmos DB
+Azure App Service
+Azure Functions
+Azure Logic Apps
+Azure Databricks
+Azure Machine Learning
+Azure Data Factory
+Azure Synapse Analytics
+Azure Data Lake Storage
+Azure Kubernetes Service (AKS)
+AKS
+Azure DevOps
+Azure Sentinel
+Azure Security Center
+Azure Active Directory
+Azure AD
+Active Directory
+Azure Key Vault
+Azure Monitor
+GitHub
+Lighthouse
+PowerShell
