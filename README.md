@@ -73,7 +73,13 @@ Vale runs locally and does not send data back to any 3rd parties (looking at you
     vale sync
     ```
 
-   The command should return no output. If you encounter an error instead. confirm that the `Application Support` / `%LOCALAPPDATA%` directories contain the `vale/.vale.ini` configuration file and the `vale/styles`    
+   **Example output**:
+
+   ```plaintext
+   SUCCESS  Synced 0 package(s) to '/Users/you/Library/Application Support/vale/styles'.
+   ```
+
+   If you encounter an error instead, confirm that the `Application Support` / `%LOCALAPPDATA%` directories contain the `vale/.vale.ini` configuration file and the `vale/styles`    
    directory.
 
 1. Install the Vale VSCode extension.
