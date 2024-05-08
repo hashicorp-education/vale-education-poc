@@ -1,10 +1,9 @@
 accessor
 accessors
 allowed_domains
-approle
-AppRole
-Address
-address
+(Aa)pp(Rr)ole
+(Aa)ddress
+API
 build_arg
 CRL
 CRLs
@@ -13,41 +12,30 @@ client_token
 ciphertext
 datacenter
 dev
-egp
-EGP
+(?i)EGP
 EGPs
 Enterprise Namespaces
 Enable Performance Replication
 enable Performance Replication
 eventually
-failback
-Failback
-failover
-Failover
-Healthy
-healthy
-HTTP
-http
-KV
-kv
+(fF)ailback
+(fF)ailover
+(hH)ealthy
+(?i)HTTP
+(?i)KV
 last_wal
 last_remote_wal
 lease_id
 Listen Address
 logshipper
-Merkle
-merkle
-Namespace
-namespace
+(mM)erkle
+(nN)amespace
 num_conflict_keys
-PKI
-pki
+(?i)PKI
 plaintext
 postgresql-readonly
 Shamir's
 sys
 userpass
-Vault
-vault
-WAL
-wal
+(vV)ault
+(?i)WAL

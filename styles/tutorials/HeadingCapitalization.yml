@@ -9,8 +9,10 @@ indicators:
 exceptions:
   - OpenLDAP
   - Amazon
+  - API
   - HashiCorp
   - HCP
+  - HTTP
   - Vault
   - Terraform
   - Boundary
