@@ -18,7 +18,6 @@ Okta
 OpenSSL
 openssl
 PostgreSQL
-Postgres
 Prometheus
 Splunk
 Syslog

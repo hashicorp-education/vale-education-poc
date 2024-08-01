@@ -17,6 +17,7 @@ exceptions:
   - Terraform
   - Boundary
   - Consul
+  - Sentinel
   - Azure
   - CLI
   - Code
