@@ -4,4 +4,4 @@ ignorecase: true
 level: error
 swap:
   postgres: PostgreSQL
-  k8s: kubernetes
+  k8s: Kubernetes
