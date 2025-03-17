@@ -26,6 +26,7 @@ exceptions:
   - Emmet
   - I
   - Kubernetes
+  - KMS
   - Linux
   - macOS
   - Marketplace
@@ -33,6 +34,7 @@ exceptions:
   - REPL
   - Studio
   - TypeScript
+  - TLS
   - URLs
   - Visual
   - VS

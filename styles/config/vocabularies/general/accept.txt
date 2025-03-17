@@ -18,3 +18,5 @@ SSL
 Syslog
 TLS
 macOS
+YAML
+namespace

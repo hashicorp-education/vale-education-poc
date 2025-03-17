@@ -21,3 +21,4 @@ PostgreSQL
 Prometheus
 Splunk
 Syslog
+KMS

@@ -4,7 +4,7 @@ CronJobs
 DaemonSets
 EndpointSlices
 Helm
-helm
+Helm Chart
 init
 k9s
 kubectl

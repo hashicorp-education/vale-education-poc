@@ -5,3 +5,4 @@ level: error
 swap:
   postgres: PostgreSQL
   k8s: Kubernetes
+  yaml: YAML

@@ -49,6 +49,7 @@ swap:
   hands on: customizable
   hard coded: hardcoded
   hard-coding: hardcoding
+  host name: hostname
   hang: not responding
   hung: not responding
   healthy: responsvie
