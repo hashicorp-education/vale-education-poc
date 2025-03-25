@@ -35,6 +35,7 @@ exceptions:
   - Studio
   - TypeScript
   - TLS
+  - Unix
   - URLs
   - Visual
   - VS
