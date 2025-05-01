@@ -1,7 +1,7 @@
 # vale-education-poc
 Internal repository for testing Vale for use in local development.
 
-Please note that previous versions of this doc and the configuration only worked with Vale 2.x. The latest version (as of 3/21) is now 3.2.2. The configuration and steps to set up Vale now assume you are using Vale 3.2.2 or later (later versions could also introduce breaking changes).
+Please note that previous versions of this doc and the configuration only worked with Vale 2.x. The latest version (as of 5/1) is now 3.11.2. The configuration and steps to set up Vale now assume you are using Vale 3.11.2 or later (later versions could also introduce breaking changes).
 
 **New in Vale 3.x**
 
