@@ -3,6 +3,8 @@ Internal repository for testing Vale for use in local development.
 
 Please note that previous versions of this doc and the configuration only worked with Vale 2.x. The latest version (as of 5/1) is now 3.11.2. The configuration and steps to set up Vale now assume you are using Vale 3.11.2 or later (later versions could also introduce breaking changes).
 
+If you are just getting started with Vale, this repository provides a minimal example configuration. A more complete Vale configuration, following the unified style guide can be found [here](https://github.com/hashicorp-education/vale).
+
 **New in Vale 3.x**
 
 Unlike Vale version 2.x, the Vale configuration file `vale.ini` MUST be named `.vale.ini` - previous versions were flexible.
